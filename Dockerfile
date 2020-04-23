@@ -18,3 +18,4 @@ RUN mkdir /var/www/moodledata && chown www-data /var/www/moodledata && \
 RUN pecl install xdebug
 
 COPY xdebug.ini /usr/local/etc/php/conf.d/xdebug.ini
+COPY uploadfile.ini /usr/local/etc/php/conf.d/uploadfile.ini
